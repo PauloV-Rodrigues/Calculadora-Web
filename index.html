@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calculator | Home</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div>
+        <input type="text" id="result"/>
+    </div>
+    <div id="calculator__wrapper">
+        <div class="calculator-numbers">
+            <input type="button" value="AC" id="element" onclick="cls()"/>
+            <input type="button" value="%" id="element-action" onclick="display('%')"/>
+            <input type="button" value="+" id="element-action" onclick="display('+')"/>
+            <input type="button" value="-" id="element-action" onclick="display('-')"/>
+        </div>
+        <div class="calculator-numbers">
+            <input type="button" value="1" id="number" onclick="display('1')"/>
+            <input type="button" value="2" id="number" onclick="display('2')"/>
+            <input type="button" value="3" id="number" onclick="display('3')"/>
+            <input type="button" value="/" id="element-action" onclick="display('/')"/>
+        </div>
+        <div class="calculator-numbers">
+            <input type="button" value="4" id="number" onclick="display('4')"/>
+            <input type="button" value="5" id="number" onclick="display('5')"/>
+            <input type="button" value="6" id="number" onclick="display('6')"/>
+            <input type="button" value="*" id="element-action" onclick="display('*')"/>
+        </div>
+        <div class="calculator-numbers">
+            <input type="button" value="7" id="number" onclick="display('7')"/>
+            <input type="button" value="8" id="number" onclick="display('8')"/>
+            <input type="button" value="9" id="number" onclick="display('9')"/>
+            <input type="button" value="=" id="element-action" onclick="solve()"/>
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
