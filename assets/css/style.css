@@ -17,7 +17,7 @@ body h1 {
 }
 
 #result {
-    width: 73%;
+    width: 206px;
     height: 40px;
     font-size: 30px;
 }
@@ -50,6 +50,18 @@ body h1 {
     font-family: 'amatic sc', sans-serif;
     margin: 5px;
     background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#element-result{
+    width: 60px;
+    height: 45px;
+    font-size: 30px;
+    font-family: 'amatic sc', sans-serif;
+    margin: 5px;
+    background-color: black;
     color: white;
     border: none;
     cursor: pointer;
